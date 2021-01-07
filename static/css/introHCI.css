@@ -12,8 +12,15 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     border: 2px dotted #d2963b;
      padding: 20px;
+     background-color: #efefef;
+     font-family: 'Arial';
+}
+
+h1 {
+     color: #2f576e;
+     font-family: 'Arial';
 }
 
 .jumbotron {
@@ -31,4 +38,13 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+.thumbnail {
+     width: 500px;
+     border: 3px solid #2f576e;
+}
+
+.project {
+     margin-left: 20px;
 }
